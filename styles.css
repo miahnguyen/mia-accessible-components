@@ -19,8 +19,8 @@ body {
 }
 #leftSide {
   display: flex; 
-  justify-content: space-between; 
-  gap: 20px;
+  justify-content: flex-start; 
+  gap: 40px;
   width: 100%; 
 }
 
@@ -35,7 +35,7 @@ body {
 #stateModelContainer {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 50px; 
   width: 100%;
   padding: 0 20px;
@@ -45,6 +45,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 28%;
 }
 
 .state-image {
@@ -73,10 +74,11 @@ body {
 }
 
 .column img {
-  max-width: 600px; 
+  max-width: 500px; 
   height: auto; 
   margin-top: 10px;
   margin-bottom: 20px; 
+  align-items: flex-start;
 }
 
 .category img {
