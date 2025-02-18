@@ -38,6 +38,7 @@ body {
   align-items: center;
   gap: 50px; 
   width: 100%;
+  padding: 0 20px;
 }
 
 .column {
@@ -48,8 +49,8 @@ body {
 
 .state-image {
   width: 1000px;
-  /* width: 100%; */
   margin-bottom: 20px;
+  margin: 0 auto;
 }
 
 .arrow-icon {
@@ -72,7 +73,7 @@ body {
 }
 
 .column img {
-  max-width: 490px; 
+  max-width: 600px; 
   height: auto; 
   margin-top: 10px;
   margin-bottom: 20px; 
@@ -135,4 +136,8 @@ ul ul {
   font-family: Georgia, serif	;
   font-size: 1em; 
   font-weight: normal;
+}
+
+li {
+  padding-bottom: 5px;
 }
