@@ -1,20 +1,138 @@
 #logoBar{
-  width: 30vw;
+  width: 100vw;
   height: 100vh;
 }
 #siteLogo{
   width: 100%;
 }
 body {
-  display: flex;
+  display: block;
+  width: 100%
 }
 #staffGallery{
   width: 70vw;
   display: inherit;
-
 }
+
+#rightSide {
+  width: 48%;
+}
+#leftSide {
+  display: flex; 
+  justify-content: space-between; 
+  gap: 20px;
+  width: 100%; 
+}
+
+#divideSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#stateModelContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px; 
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.state-image {
+  width: 1000px;
+  /* width: 100%; */
+  margin-bottom: 20px;
+}
+
+.arrow-icon {
+  width: 100px;
+  margin: 10px 0;
+}
+
 .galleryImage{
   width: 100%;
   height: auto;
   height: 300px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 30%;
+  text-align: center; 
+}
+
+.column img {
+  max-width: 490px; 
+  height: auto; 
+  margin-top: 10px;
+  margin-bottom: 20px; 
+}
+
+.category img {
+  margin-top: 10px;
+  margin-bottom: 20px; 
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9e4e1; 
+  color: #333; 
+  font-size: 20px;
+  margin-top: 40px; 
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center; 
+  width: 100%; 
+  margin: 20px 0; 
+  font-family: Optima, sans-serif	;
+}
+h2 {
+  font-size: 40px;
+  text-align: center; 
+  width: 100%; 
+  margin: 20px 0; 
+  font-family: Optima, sans-serif	;
+}
+h3 {
+  font-family: Georgia, serif	;
+  font-weight: normal;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.text-container {
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 0 20px; 
+}
+
+ul {
+  font-family: Georgia, serif	;
+  font-size: 1.2em; 
+  font-weight: bold; 
+  margin-top: 0.5em;
+}
+ul ul {
+  font-family: Georgia, serif	;
+  font-size: 1em; 
+  font-weight: normal;
 }
