@@ -15,13 +15,14 @@ body {
 }
 
 #rightSide {
-  width: 48%;
+  width: 55%;
+
 }
 #leftSide {
   display: flex; 
   justify-content: flex-start; 
   gap: 40px;
-  width: 100%; 
+  width: 40%; 
 }
 
 #divideSection {
